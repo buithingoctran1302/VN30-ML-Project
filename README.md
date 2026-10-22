@@ -37,10 +37,8 @@ Trong bối cảnh thị trường chứng khoán Việt Nam chịu ảnh hưở
 | 02 — Data Preprocessing | Làm sạch, xử lý dữ liệu thiếu và chuẩn hóa |
 | 03 — Feature Engineering | Xây dựng chỉ tiêu chống chịu và phục hồi |
 | 04 — Machine Learning | Phân cụm cổ phiếu dựa trên các đặc trưng đã lựa chọn |
-| 05 — Evaluation | Đánh giá chất lượng phân cụm và diễn giải đặc điểm từng nhóm |
+| 05 — Evaluation | Đánh giá chất lượng phân cụm |
 | 06 — Visualization | Xây dựng biểu đồ và ứng dụng tương tác bằng Streamlit |
-
-**Thuật toán:** K-Means hoặc các thuật toán phân cụm phù hợp với dữ liệu thực nghiệm.
 
 *Lưu ý: Thuật toán và số lượng cụm cuối cùng cần được xác định theo mô hình thực tế được sử dụng trong dự án.*
 
@@ -59,24 +57,24 @@ Trong bối cảnh thị trường chứng khoán Việt Nam chịu ảnh hưở
 ```text
 VN30-Resilience/
 │
-├── requirements.txt        # Danh sách thư viện
-├── README.md               # Tài liệu dự án
+├── requirements.txt                 # Danh sách thư viện
+├── README.md                        # Tài liệu dự án
 │
 ├── data/
-│   ├── unprocessed/        # Dữ liệu ban đầu
-│   └── processed/          # Dữ liệu đã xử lý
+│   ├── unprocessed/                 # Dữ liệu ban đầu
+│   └── processed/                   # Dữ liệu đã xử lý
 │
 ├── notebooks/
-│   └── 1.0-EDA.ipynb       # Phân tích khám phá dữ liệu
+│   └── 1.0-EDA.ipynb                # Phân tích khám phá dữ liệu
 │   └── 2.0-model-prototyping.ipynb  # Thử nghiệm, so sánh mô hình  
 ├── src/
-|   |__ data_preparation.py  # Hàm chuẩn bị dataset hoàn chỉnh
-|   |__ data_processing.py   # Hàm tiền xử lý dữ liệu
-│   |__ train_f5             # Script huấn luyện mô hình 5 biến đặc trưng
-|   |__ train_f3             # Script huấn luyện mô hình 3 biến đặc trưng
-|__models/                   # Chứa file mô hình đã train
+|   |__ data_preparation.py          # Hàm chuẩn bị dataset hoàn chỉnh
+|   |__ data_processing.py           # Hàm tiền xử lý dữ liệu
+│   |__ train_f5                     # Script huấn luyện mô hình 5 biến đặc trưng
+|   |__ train_f3                     # Script huấn luyện mô hình 3 biến đặc trưng
+|__models/                           # Chứa file mô hình đã train
 |__reports/
-    |__figures/              # Biểu đồ, hình ảnh
+    |__figures/                      # Biểu đồ, hình ảnh
 ```
 
 
@@ -167,5 +165,5 @@ Kết quả phân cụm phản ánh đặc điểm của dữ liệu và các ch
 <p align="center">
   <b>📈 NHÓM 10 ML — DATA • MACHINE LEARNING • FINANCIAL RESILIENCE</b>
   <br/>
-  <i>Phân tích dữ liệu hôm nay — Hiểu rõ rủi ro ngày mai.</i>
+  <i> Phân tích dữ liệu hôm nay — Hiểu rõ rủi ro ngày mai.</i>
 </p>
