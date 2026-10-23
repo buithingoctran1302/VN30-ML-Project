@@ -133,11 +133,10 @@ Sau khi khởi chạy, mở địa chỉ local được hiển thị trong Termi
 Dự án có thể được triển khai bằng Streamlit Community Cloud.
 
 1. Đưa mã nguồn lên GitHub.
-2. Đảm bảo repository có file `app.py` và `requirements.txt`.
-3. Truy cập [Streamlit Community Cloud](https://share.streamlit.io/).
-4. Kết nối GitHub và chọn repository.
-5. Chọn nhánh chứa mã nguồn và file khởi chạy `app.py`.
-6. Nhấn **Deploy** để triển khai ứng dụng.
+2. Truy cập [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Kết nối GitHub và chọn repository.
+4. Chọn nhánh chứa mã nguồn và file khởi chạy `app.py`.
+5. Nhấn **Deploy** để triển khai ứng dụng.
 
 ## 📌 8. Ý nghĩa thực tiễn
 
